@@ -20,7 +20,7 @@ print(my_traker.current_statics)
 from covidstats import CoronaTracker
 import asyncio
 
-async def main()
+async def main():
   my_traker = CoronaTracker()
   await my_traker.aio_fetch_results("Mexico")
   print(my_traker.current_statics)
