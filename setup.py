@@ -19,6 +19,7 @@ args = dict(
     author='Sengolda',
     include_package_data=True,
     python_requires=">=3.7",
+    install_requires=['aiohttp>=3.6,<3.8', 'requests'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
