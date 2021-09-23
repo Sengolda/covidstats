@@ -10,7 +10,7 @@ packages = [
 ]
 
 args = dict(
-    name='covidtats',
+    name='covidstats',
     version='0.1.0',
     description='A Covid Statics tracker.',
     long_description=long_description,
